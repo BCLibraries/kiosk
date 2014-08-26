@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://libdev01.bc.edu/bus/ -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+		<title>BC Shuttle</title>
+
+		<link rel="image_src" type="image/png" href="http://transloc.com/templates/transloc/images/transloc_logo.png?v=1.0">
+		<link rel="SHORTCUT ICON" href="http://static.transloc.com/tvspublic/_common/favicon.ico?v=1.0">
+
+		<style>
+			#map {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				width: 100%;
+				min-height: 300px;
+				margin-left: -8px;
+			}
+
+			/* Block the map from being clicked. */
+			#map-blocker {
+				position: absolute;
+				height: 100%;
+				width: 100%;
+				z-index: 1000;
+				top: 0;
+				left: 0;
+			}
+		</style>
+
+		<style type="text/css"></style>
+	</head>
+
+	<body class="map">
+
+		<!-- Empty div to block user clicks. -->
+<div id="map-border" style="width: 1470px; height: 880px; top:0px; left:250px; border-style:solid; border-width:50px;  border-color: rgba(214, 214, 214, 1);position:absolute; z-index:9999;"></div>
+		<div id="map" style="background-color: rgb(255, 255, 255); width: 100%;">
+			<object type="application/x-shockwave-flash" width="100%" height="100%" data="http://static.transloc.com/tvspublic/_common/swf/TvsClient-default.swf?v=6619a32d2bacada0b3703d86a4b8efaa">
+				<param name="src" value="http://static.transloc.com/tvspublic/_common/swf/TvsClient-default.swf?v=6619a32d2bacada0b3703d86a4b8efaa">
+				<param name="bgColor" value="#ffffff">
+				<param name="wmode" value="transparent">
+				<param name="allowScriptAccess" value="always">
+				<param name="autoplay" value="false">
+				<param name="flashvars" value="box=42.326856%2C-71.198573%2C42.347%2C-71.137462&amp;feeds_domain=feeds.transloc.com&amp;tile_server_parent=transloc.com&amp;sms=0&amp;predictions=True&amp;agencies=32&amp;static_media_domain=static.transloc.com&amp;announcements=True&amp;classic=1">
+				<div>
+					<p>
+						<strong>Flash Required</strong>
+					</p>
+					<p>
+						Flash is required to view this media. <a href="http://www.adobe.com/go/getflashplayer">Download Here</a>.
+					</p>
+				</div>
+			</object>
+		</div>
+
+		<h3 id="footer"> Aspects of this system are covered by U.S. Patent 7,920,967.
+		Copyright © 2004-2013, <a href="http://transloc.com/" title="Visit TransLoc&#39;s Coprorate Website">TransLoc Inc.</a></h3>
+
+		<script src="jquery-1.6.2.min.js"></script>
+		<script src="jquery.media.js"></script>
+
+		<script type="text/javascript">
+			$(function() {
+
+				$('#map').media({
+					bgColor : '#ffffff',
+					params : {
+						'wmode' : 'transparent',
+						'allowScriptAccess' : 'always'
+					},
+					src : 'http://static.transloc.com/tvspublic/_common/swf/TvsClient-default.swf?v=6619a32d2bacada0b3703d86a4b8efaa',
+					flashvars : {
+						box : "42.326856%2C-71.198573%2C42.347%2C-71.137462",
+						feeds_domain : "feeds.transloc.com",
+						tile_server_parent : "transloc.com",
+						sms : "0",
+						predictions : "True",
+						agencies : "32",
+						static_media_domain : "static.transloc.com",
+						announcements : "True",
+						classic : 1
+					},
+					width : '105%',
+					height : '100%',
+					flashVersion : '10.1.0',
+					caption : ''
+				});
+
+			});
+		</script>
+
+	</body>
+</html>
