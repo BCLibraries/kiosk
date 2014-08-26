@@ -165,14 +165,6 @@
         "id": "229",
         "name": "Office",
         "people": [
-            {
-                "id": "",
-                "name": "Baden, Diane",
-                "img": "",
-                "phone": "2-3210",
-                "email": "diane.baden@bc.edu",
-                "title": "Head, Monographic Services"
-            }
         ],
         "img": "",
         "type": "office",
@@ -288,6 +280,14 @@
                 "phone": "2-1945",
                 "email": "naomi.rubin@bc.edu",
                 "title": "Digital Imaging Assistant"
+            },
+            {
+                "id": "",
+                "name": "Ostrowski, Cheryl",
+                "img": "",
+                "phone": "2-0946",
+                "email": "cheryl.ostrowski@bc.edu",
+                "title": "Digital Content Specialist"
             }
         ],
         "img": "",
@@ -317,6 +317,14 @@
             },
             {
                 "id": "",
+                "name": "Dumouchel, Amy",
+                "img": "",
+                "phone": "2-4464",
+                "email": "amy.dumouchel@bc.edu",
+                "title": "Electronic Resources Librarian"
+            },
+            {
+                "id": "",
                 "name": "King, George",
                 "img": "",
                 "phone": "2-4993",
@@ -338,6 +346,14 @@
                 "phone": "2-4419",
                 "email": "marguerite.mcdonough@bc.edu",
                 "title": "Senior Acquisitions & Cataloging Assistant"
+            },
+            {
+                "id": "",
+                "name": "Meuse, Brian",
+                "img": "",
+                "phone": "2-8462",
+                "email": "brian.meuse@bc.edu",
+                "title": "Digital Collections Systems Librarian"
             },
             {
                 "id": "",
@@ -370,6 +386,14 @@
                 "phone": "2-0025",
                 "email": "chienru.wang@bc.edu",
                 "title": "Cataloging Assistant"
+            },
+            {
+                "id": "",
+                "name": "White, Gail",
+                "img": "",
+                "phone": "2-0018",
+                "email": "gail.white@bc.edu",
+                "title": "Tech Support Specialist"
             },
             {
                 "id": "",
@@ -636,11 +660,11 @@
         "people": [
             {
                 "id": "",
-                "name": "Bregman, Adeane",
+                "name": "Pope, Este",
                 "img": "",
-                "phone": "2-3136",
-                "email": "adeane.bregman@bc.edu",
-                "title": "Subject Specialist for Art, Architecture and Film Studies"
+                "phone": "2-2081",
+                "email": "este.pope@bc.edu",
+                "title": "Head of Instruction Services"
             }
         ],
         "img": "",
@@ -913,7 +937,16 @@
     {
         "id": "304A",
         "name": "Circulation Office",
-        "people": [],
+        "people": [
+            {
+                "id": "",
+                "name": "Strittmatter, Connie",
+                "img": "",
+                "phone": "2-4834",
+                "email": "connie.strittmatter@bc.edu",
+                "title": "Head Librarian, Access Services & Collection Maintenance"
+            }
+        ],
         "img": "",
         "type": "office",
         "floor": "3",
@@ -1024,14 +1057,6 @@
         "people": [
             {
                 "id": "",
-                "name": "Alvarez, Jessica",
-                "img": "",
-                "phone": "2-4470",
-                "email": "jessica.alvarez@bc.edu",
-                "title": "Administrative Assistant"
-            },
-            {
-                "id": "",
                 "name": "McMahon, Tricia",
                 "img": "",
                 "phone": "2-4470",
@@ -1139,6 +1164,14 @@
             },
             {
                 "id": "",
+                "name": "Homan, Sherm",
+                "img": "",
+                "phone": "2-8787",
+                "email": "sherm.homan@bc.edu",
+                "title": "Technology Consultant"
+            },
+            {
+                "id": "",
                 "name": "Houston-Ponchak, Christopher",
                 "img": "",
                 "phone": "2-0127",
@@ -1168,6 +1201,14 @@
                 "phone": "2-6361",
                 "email": "glenn.manino@bc.edu",
                 "title": "Library Systems Integration Analyst"
+            },
+            {
+                "id": "",
+                "name": "Martinez, Jesse",
+                "img": "",
+                "phone": "2-2509",
+                "email": "jesse.martinez@bc.edu",
+                "title": "Web Services Librarian"
             },
             {
                 "id": "",
