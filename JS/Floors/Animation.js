@@ -9,10 +9,13 @@ var Animation = ( function() {
 
 		function youAreHere() {
 			if (Floors.endFloor() == 3) {
-				var starPoints = Helper.midPoint($("#star")[0]);
-				var radius = "40";
+                var $star, starPoints, radius;
 
-				d3.select("#_x33__floor").insert("circle", "#" + $("#star").parent()[0].id).attr("id", "circ")
+                $star = $("#star");
+				starPoints = Helper.midPoint($star[0]);
+				radius = "40";
+
+				d3.select("#_x33__floor").insert("circle", "#" + $star.parent()[0].id).attr("id", "circ")
 																						   .attr("r", radius)
 																						   .attr("cx", starPoints[1] + 130)
 																						   .attr("cy", starPoints[0] + 1)

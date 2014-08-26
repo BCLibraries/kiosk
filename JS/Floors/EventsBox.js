@@ -246,14 +246,15 @@ var EventsBox = (function() {
 			return words.length;
 		}
 	
-		var timeDown = 45 * 1000;
-		var timeUp = 1 * 1000;
+		var timeDown = 45000;
+		var timeUp = 1000;
 			
-		var timeout, timeoutTime = 30 * 1000;
+		var timeout, timeoutTime = 30000;
 		
-		function autoScroll() { 
-			$list   = $("#" + id);
-			$listSH = $list[0].scrollHeight - $list.outerHeight();
+		function autoScroll() {
+            var $list, $listSH;
+            $list = $("#" + id);
+            $listSH = $list[0].scrollHeight - $list.outerHeight();
 			
 			function loop(){ 
 			  var t = $list.scrollTop();
