@@ -1,7 +1,7 @@
 var Data = ( function() {
 		/* Private properties */
 		var pub = {},
-		computerJSON_URL = "http://libstaff.bc.edu/labstats/?callback=?"
+		computerJSON_URL = "http://libstaff.bc.edu/labstats/?callback=?",
 		roomsJSON_Path = "JSON/rooms.json",
 		stacksJSON_Path = "JSON/stacks.json",
 		studyRoomsJSON_URL = "http://arc.bc.edu/rooms/?callback=?",

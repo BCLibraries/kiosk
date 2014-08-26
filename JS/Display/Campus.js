@@ -3,7 +3,6 @@ var Campus = ( function() {
 			width = "1820px",
 			height = "980px",
 			id = "campus",
-			type = "CAMPUS",
 			isCurrentlyDisplayed = false,
 			fadeTime = .3 * 1000,
 			map, center, defaultZoom, zoom,

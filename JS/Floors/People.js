@@ -1,7 +1,7 @@
 var People = (function() {
 	var pub = {},
 		peopleListID = "people-modal-window",
-		isPeopleListDisplayed = "false"
+		isPeopleListDisplayed = "false",
 		sortedPeopleList = new Array(),
 		peopleFinderFade = .3 * 1000,
 		previousHash = 999,

@@ -1,10 +1,8 @@
 var Buses = ( function() {
 		var pub = {},
-			busesURL = "Images/Campus.png",
 			width = "1820px",
 			height = "980px",
 			id = "bus-map",
-			type = "BUSMAP",
 			isCurrentlyDisplayed = false,
 			fadeTime = .29 * 1000;
 	

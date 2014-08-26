@@ -2,7 +2,6 @@ var Display = (function() {
 	var pub = {},
 		isBackgroundOn = false,
 		isInvisibleOn = false,
-		isCampusOn = false,
 		isTouchStartOn = false,
 		transparentID = "transparent";
 	
