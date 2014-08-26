@@ -9,7 +9,7 @@ var Buses = ( function () {
     pub.initialize = function () {
         d3.select("body").insert("iframe", ":first-child")
             .attr("id", id)
-            .attr("src", "Bus Map/BC Shuttle.html")
+            .attr("src", "bus/index.html")
             .style("width", width)
             .style("height", height)
             .style("top", "40px")

@@ -19,7 +19,7 @@ var Menu = ( function () {
     /* Display bus map */
     ( function busButton() {
         $("#busMap").click(function () {
-            Data.addStateEvent({"type": "bus-select", "target": "Bus Map"});
+            Data.addStateEvent({"type": "bus-select", "target": "bus"});
             Display.toggleBuses();
         });
     }());

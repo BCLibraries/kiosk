@@ -113,7 +113,7 @@ var Display = (function () {
         })
     };
 
-    /* Bus Map */
+    /* bus */
     pub.toggleBuses = function () {
         Buses.show();
         Heatmap.switchMaps(11);
